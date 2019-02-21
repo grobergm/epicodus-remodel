@@ -1,6 +1,15 @@
 # Epicodus Site Redesign
 
 
+_A mobile friendly user interface for learnhowtoprogram.com (2/20/19)_
+
+### Contributors
+* Justin Haupt  & Matt Groberg
+
+
+## Description
+
+This is a reimagined user interface for the learn how to program website. We focused on restructuring the navigation, and adding personalized bookmarks. Each days lessons are grouped into a continuous scrollable text box. An overview is given at the start of each day with links to each section. This was inspired by the difficulty we experienced navigating between lessons on our mobile devices. The new bookmarking functionality is only available if the user signs in.
 
 ## User Profiles
 1. Student
@@ -79,4 +88,15 @@ _I am considering hiring someone from this school. Is it good?_
 3.  How to Serve:
     * Landing Page has clear visual hierarchy (easy to skim)
     * Professional Looking
-    * Easy Navigation 
+    * Easy Navigation
+
+
+## Specs
+
+1. User signs in and has the option to continue reading where they left off or jump to a bookmarked section.
+
+2. Lessons are grouped by day, and organized by headers.
+
+3. Each header has the option to bookmark, while the user in logged in.
+
+4. The most recent header is updated, whenever they log out (this is where they will return when logging back in, if they click continue reading).
